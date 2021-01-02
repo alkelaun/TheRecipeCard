@@ -1,0 +1,28 @@
+Django>=3
+
+# Security
+django-guardian
+
+# History
+django-simple-history
+
+# channels
+
+celery >= 5
+django-celery-beat >= 2.1
+
+# Database
+psycopg2-binary >= 2.8
+
+django-allauth>=0.43.0
+gunicorn>=20
+
+pylint>=2.1.1
+pytz>=2018.7
+
+pillow >=8
+
+
+#Development Tools
+django-extensions >= 3.1 #https://github.com/django-extensions/django-extensions/
+django-debug-toolbar==3.2
